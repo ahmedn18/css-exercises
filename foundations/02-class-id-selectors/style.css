@@ -1,0 +1,22 @@
+.odd-number {
+    background-color: lightcoral;
+    font-family: Veranda, "Dejavu Sans", sans-serif;
+}
+
+/* .even-number {
+    font-family: "Times New Roman";
+} */
+
+#third-number {
+    font-size: 24px;
+}
+
+#second-number {
+    color: blue;
+    font-size: 36px;
+}
+
+#fourth-number {
+    background-color: lightgreen;
+    font-weight: bold;
+}
