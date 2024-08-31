@@ -2,26 +2,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Number of selectors override */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+p.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
+p.para {
   font-size: 22px;
 }
 
-.confirm {
+/* Id override */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,7 +32,8 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* Inheritance override */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
